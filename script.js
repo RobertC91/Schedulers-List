@@ -17,7 +17,6 @@
 // THEN the saved events persist
 // --------------------------------------------------------------------------------------------
 
-// $(function () {
 // Displays time and sets the time interval.
 let newTime = $("#currentDay");
 function getCurrentDateTime() {
@@ -55,16 +54,16 @@ function timeWizard() {
   $(".time-block").each(function () {
     let blockTime = parseInt($(this).attr("id"));
     if (blockTime <= currentTime) {
-      $(this).removeClass("future");
-      $(this).removeClass("present");
+      // $(this).removeClass("future");
+      // $(this).removeClass("present");
       $(this).addClass("past");
     } else if (blockTime === currentTime) {
-      $(this).removeClass("past");
-      $(this).removeClass("future");
+      // $(this).removeClass("past");
+      // $(this).removeClass("future");
       $(this).addClass("present");
     } else {
-      $(this).removeClass("present");
-      $(this).removeClass("past");
+      // $(this).removeClass("present");
+      // $(this).removeClass("past");
       $(this).addClass("future");
     }
   });
