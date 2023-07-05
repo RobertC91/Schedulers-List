@@ -1,5 +1,5 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
 }
 
@@ -36,12 +36,12 @@ textarea {
 }
 
 .present {
-  background-color: #61dfff;
+  background-color: #8fdd77;
   color: white;
 }
 
 .future {
-  background-color: #8fdd77;
+  background-color: #61dfff;
   color: white;
 }
 
